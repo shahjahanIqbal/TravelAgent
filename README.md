@@ -14,12 +14,7 @@ travel_agent/
 │   └── places.json
 ├── tools.py          LangChain tools: flights, hotels, places, weather, budget
 ├── agent.py          LangChain agent + LLM loader (Anthropic or HuggingFace)
-├── api_server.py     Flask REST API consumed by the frontend
-├── app.py            Streamlit UI (standalone, no Flask needed)
-├── index.html        HTML/JS frontend (talks to api_server.py)
 ├── requirements.txt
-├── Procfile          For Render / Railway / Heroku
-├── render.yaml       One-click Render deployment config
 ├── .env.example      Copy to .env and fill in your keys
 └── .gitignore
 ```
